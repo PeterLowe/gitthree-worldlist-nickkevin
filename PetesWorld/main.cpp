@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to C or W to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to D or W to Z" << std::endl; // change this line each iteration
 
 
 	std::cin >> letter;
@@ -58,7 +58,7 @@ int main()
 		}
 
 	}
-	if (letter == 'b' || letter == 'B')
+	if (letter == 'b' || letter == 'B') // written by Nick
 	{
 		if (region == 1)
 		{
@@ -82,7 +82,7 @@ int main()
 			std::cout << "There are no other B countries in the rest of the world" << std::endl;
 		}
 	}
-	if (letter == 'c' || letter == 'C')
+	if (letter == 'c' || letter == 'C') // written by Nick
 	{
 		if (region == 1)
 		{
@@ -103,6 +103,29 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Cook Island" << std::endl;
+		}
+	}
+	if (letter == 'd' || letter == 'D') // written by Nick
+	{
+		if (region == 1)
+		{
+			std::cout << "Dominican Republic, Dominica" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no countries beginning with D in Asia." << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no countries in the rest of the world beginning with D." << std::endl;
 		}
 	}
 	if (letter == 'w' || letter == 'W') // Written by Kevin
