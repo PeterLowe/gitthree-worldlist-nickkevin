@@ -2,7 +2,7 @@
 // date November 2022
 // author Pete Lowe
 // + Kevin Michael (c00313609)
-//  or here
+// + Nicholas McDonald (C00308788)
 // estimated time 120 minutes
 // actual time ??
 // version 1.1  (Updated Name)
