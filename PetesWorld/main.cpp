@@ -22,7 +22,8 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to C or Y to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to C or W to Z" << std::endl; // change this line each iteration
+
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -104,6 +105,55 @@ int main()
 			std::cout << "Cook Island" << std::endl;
 		}
 	}
+	if (letter == 'w' || letter == 'W') // Written by Kevin
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no W countries in the Americas." << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no W countries in Europe." << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Western Sahara" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no W countries in Asia." << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Wallis and Futuna Islands" << std::endl;
+		}
+	}
+
+	if (letter == 'x' || letter == 'X') // Written by Kevin
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Xs in the Americas." << std::endl;
+		}
+		else if (region == 2)
+		{
+			std::cout << "There are no Xs in Europe." << std::endl;
+		}
+		else if (region == 3)
+		{
+			std::cout << "There are no Xs in Africa." << std::endl;
+		}
+		else if (region == 4)
+		{
+			std::cout << "There are no Xs in Asia." << std::endl;
+		}
+		else if (region == 5)
+		{
+			std::cout << "There are no Xs in the Rest of The World." << std::endl;
+		}
+	}
+
+
 	if (letter == 'y' || letter == 'Y') // Written by Kevin
 	{
 		if (region == 1)
