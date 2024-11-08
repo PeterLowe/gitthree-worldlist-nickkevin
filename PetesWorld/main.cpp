@@ -4,7 +4,7 @@
 // + Kevin Michael (c00313609)
 // + Nicholas McDonald (C00308788)
 // estimated time 120 minutes
-// actual time ??
+// actual time 1 hour 50 minutes
 // version 2.0  (Updated Name)
 
 
@@ -22,8 +22,8 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to D or W to Z" << std::endl; // change this line each iteration
 
+	std::cout << "Pick a letter from A to D or W to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -83,6 +83,9 @@ int main()
 		}
 	}
 	if (letter == 'c' || letter == 'C') // written by Nick
+
+
+	if (letter == 'c' || letter == 'C')
 	{
 		if (region == 1)
 		{
@@ -126,6 +129,29 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "There are no countries in the rest of the world beginning with D." << std::endl;
+		}
+	}
+	if (letter == 'v' || letter == 'V') // Written by Kevin
+	{
+		if (region == 1)
+		{
+			std::cout << "Venezuela" << std::endl;
+		}
+		else if (region == 2)
+		{
+			std::cout << "Vatican City State" << std::endl;
+		}
+		else if (region == 3)
+		{
+			std::cout << "No countries with a V in Africa." << std::endl;
+		}
+		else if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		else if (region == 5)
+		{
+			std::cout << "Vanuatu, Virgin islands (U.S), Virgin Islands (British)" << std::endl;
 		}
 	}
 	if (letter == 'w' || letter == 'W') // Written by Kevin
