@@ -1,11 +1,11 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-// add your name here
+// + Kevin Michael (c00313609)
 //  or here
 // estimated time 120 minutes
 // actual time ??
-// version 1.0
+// version 1.1  (Updated Name)
 
 
 #include <iostream>
