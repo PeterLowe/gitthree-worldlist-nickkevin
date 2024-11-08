@@ -56,6 +56,31 @@ int main()
 		}
 	}	
 
+	if (letter == 'x' || letter == 'X') // Written by Kevin
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Xs in the Americas." << std::endl;
+		}
+		else if (region == 2)
+		{
+			std::cout << "There are no Xs in Europe." << std::endl;
+		}
+		else if (region == 3)
+		{
+			std::cout << "There are no Xs in Africa." << std::endl;
+		}
+		else if (region == 4)
+		{
+			std::cout << "There are no Xs in Asia." << std::endl;
+		}
+		else if (region == 5)
+		{
+			std::cout << "There are no Xs in the Rest of The World." << std::endl;
+		}
+	}
+
+
 	if (letter == 'y' || letter == 'Y') // Written by Kevin
 	{
 		if (region == 1)
