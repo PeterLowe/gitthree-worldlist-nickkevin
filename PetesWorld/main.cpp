@@ -1,11 +1,11 @@
 // program to find countries in Pete's World
-// date November 2022
+// date 8th November 2024
 // author Pete Lowe
 // + Kevin Michael (c00313609)
 // + Nicholas McDonald (C00308788)
 // estimated time 120 minutes
 // actual time ??
-// version 1.1  (Updated Name)
+// version 2.0  (Updated Name)
 
 
 #include <iostream>
@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or Z to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to A or Y to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -55,6 +55,31 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
+
+	if (letter == 'y' || letter == 'Y') // Written by Kevin
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Ys in the Americas." << std::endl;
+		}
+		else if (region == 2)
+		{
+			std::cout << "There are no Ys in Europe." << std::endl;
+		}
+		else if (region == 3)
+		{
+			std::cout << "There are no Ys in Africa." << std::endl;
+		}
+		else if (region == 4)
+		{
+			std::cout << "There are no Ys in Asia." << std::endl;
+		}
+		else if (region == 5)
+		{
+			std::cout << "Yemen" << std::endl;
+		}
+	}
+
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
